@@ -511,6 +511,8 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
   <project path="hardware/qcom/audio-caf" name="VanirAOSP/hardware_qcom_audio-caf" remote="github" revision="kk44" />
   <project path="hardware/qcom/display-caf" name="VanirAOSP/hardware_qcom_display-caf" remote="github" revision="kk44" />
+  <project path="hardware/qcom/display-caf-new" name="VanirAOSP/hardware_qcom_display-caf-new" remote="github" revision="kk44" />
   <project path="hardware/qcom/media-caf" name="VanirAOSP/hardware_qcom_media-caf" remote="github" revision="kk44" />
+  <project path="hardware/qcom/media-caf-new" name="VanirAOSP/hardware_qcom_media-caf-new" remote="github" revision="kk44" />
   
 </manifest>
