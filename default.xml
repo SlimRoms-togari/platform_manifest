@@ -200,7 +200,6 @@
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="SlimRoms/android_external_srec" remote="github" revision="kk4.4" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/strace" name="platform/external/strace" />
@@ -267,6 +266,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   -->
   
   <!-- linaro -->
