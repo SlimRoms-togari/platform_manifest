@@ -53,7 +53,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4-caf" />
+  <project path="external/bluetooth/bluedroid" name="VanirAOSP/external_bluetooth_bluedroid" remote="github" revision="kk44" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="kk4.4" />
@@ -338,7 +338,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="kk4.4-caf" />
+  <project path="packages/apps/Bluetooth" name="VanirAOSP/packages_apps_Bluetooth" remote="github" revision="kk44" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="github" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="kk4.4" />
@@ -493,22 +493,23 @@
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
   
     <!-- togari-->
-  <!-- SaberMod toolchain -->
+  <!-- SaberMod toolchain 
   <project name="MWisBest/arm-linux-androideabi-4.8-linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-jb-mr2"/>
-
+  -->
 
 
   <!-- ************** SLIMSABER ************** -->
   <!--togari-->
-  <project path="device/sony/togari" name="SlimSaber-togari/device_sony_togari" remote="github" revision="kitkat"/>
-  <project path="device/sony/rhine-common" name="SlimRoms-togari/android_device_sony_rhine-common" remote="github" revision="cm-11.0-caf"/>
+  <project path="device/sony/togari" name="SlimSaber-togari/android_device_sony_togari_cm" remote="github" revision="cm-11.0"/>
+  <project path="device/sony/rhine-common" name="SlimSaber-togari/android_device_sony_rhine-common" remote="github" revision="cm-11.0"/>
   <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="github" revision="cm-11.0" />
   <project path="device/sony/common" name="SlimRoms/device_sony_common" remote="github" revision="kk4.4"/>
-  <project path="device/sony/qcom-common" name="AOKP/android_device_sony_qcom-common" remote="github" revision="kitkat"/>
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-11.0"/>
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0"/>
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-11.0" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
+  
   <project path="hardware/qcom/audio-caf" name="VanirAOSP/hardware_qcom_audio-caf" remote="github" revision="kk44" />
   <project path="hardware/qcom/display-caf" name="VanirAOSP/hardware_qcom_display-caf" remote="github" revision="kk44" />
   <project path="hardware/qcom/display-caf-new" name="VanirAOSP/hardware_qcom_display-caf-new" remote="github" revision="kk44" />
