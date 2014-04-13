@@ -296,7 +296,7 @@
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4-caf" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4-caf" />
   
-  <!-- slimroms qcom -->
+  <!-- slimroms qcom 
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
@@ -310,11 +310,9 @@
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="kk4.4-caf" />
+  -->
   
-  
-  
-  
-  <!-- cyanogenmod qcom repo
+  <!-- cyanogenmod qcom repo -->
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="VanirAOSP/hardware_qcom_camera" remote="github" revision="kk44" />
@@ -328,7 +326,7 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-11.0" />
-  -->
+  
   
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
@@ -498,12 +496,12 @@
 
   <!-- ************** SLIMSABER ************** -->
   <!--togari-->
-  <!--
+  
   <project path="device/sony/togari" name="SlimSaber-togari/device_sony_togari" remote="github" revision="kitkat"/>
   <project path="device/sony/rhine-common" name="SlimSaber-togari/android_device_sony_rhine-common" remote="github" revision="cm-11.0"/>
   <project path="kernel/sony/msm8974" name="SlimRoms/kernel_sony_msm8974" remote="github" revision="kk4.4" />
-  <project path="device/sony/common" name="SlimRoms/device_sony_common" remote="github" revision="kk4.4"/>
-  <project path="device/sony/qcom-common" name="AOKP/android_device_sony_qcom-common" remote="github" revision="kitkat"/>
+  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-11.0"/>
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-11.0"/>
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0"/>
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-11.0" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
@@ -513,7 +511,9 @@
   <project path="hardware/qcom/display-caf-new" name="VanirAOSP/hardware_qcom_display-caf-new" remote="github" revision="kk44" />
   <project path="hardware/qcom/media-caf" name="VanirAOSP/hardware_qcom_media-caf" remote="github" revision="kk44" />
   <project path="hardware/qcom/media-caf-new" name="VanirAOSP/hardware_qcom_media-caf-new" remote="github" revision="kk44" />
-  -->
+  
+  
+  <!--
   <project path="device/sony/togari" name="SlimSaber-togari/device_sony_togari" remote="github" revision="kitkat"/>
   <project path="device/sony/rhine-common" name="SlimSaber-togari/android_device_sony_rhine-common" remote="github" revision="cm-11.0"/>
   <project path="kernel/sony/msm8974" name="SlimRoms/kernel_sony_msm8974" remote="github" revision="kk4.4" />
@@ -528,6 +528,6 @@
   <project path="hardware/qcom/display-caf-new" name="SlimRoms/hardware_qcom_display-caf-new" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/media-caf-new" name="SlimRoms/hardware_qcom_media-caf-new" remote="github" revision="kk4.4" />
-  
+  -->
   
 </manifest>
